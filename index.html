@@ -2,8 +2,8 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML + CSS</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A little about Me</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
 
@@ -11,9 +11,22 @@
     <header>
       <h1>Student Bio</h1>
     </header>
+    <nav> 
+      <ul>
+        <li>
+          <a href="#About-Me">About Me</a>
+        </li>
+        <li>
+          <a href="#Check-Out-My-Work">Check Out My Work</a>
+        </li>
+        <li>
+          <a href="#Contact-Me">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
 
-    <div class="container">
-      <section id="main-bio">
+    <section class="hero">
+      <article id="main-bio">
         <!-- TODO: Replace content with your own info -->
         <h2>Jonathan Robinson</h2>
 
@@ -26,16 +39,16 @@
         <p>
           I've done sales for 15 years and seek a career shift. Like many, Covid had thrown me off course but on the bright side... this has been the catalyst for finally making the jump from sales.
         </p>
-      </section>
+      </article>
 
-      <section id="contact-info">
+      <article id="contact-info">
         <h2>Contact Info</h2>
         <ul>
           <li><strong>Email:</strong> <a href="#">jonathan.robinson@outlook.com</a></li>
           <li><strong>Github:</strong> <a href="#">Jonathan-84</a></li>
           <li><strong>LinkedIn:</strong> <a href="#">www.linkedin.com/in/jrobinson8</a></li>
         </ul>
-      </section>
-    </div>
+      </article>
+    </section>
   </body>
 </html>
