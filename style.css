@@ -64,6 +64,7 @@ header nav ul li a {
   display: flex;
   height: 300px;
   width: 300px;
+  padding: 20px 30px;
 }
 
 #main-bio p {
@@ -75,4 +76,19 @@ header nav ul li a {
 }
 body {
   background-color: #e07f00;
+}
+#contact-info h2 {
+  display: flex;
+  justify-content: flex-start;
+}
+#contact-info ul li {
+  display: flex;
+  justify-content: space-between flex-end;
+}
+footer {
+  text-align: center;
+}
+.section-title {
+  font: x-large;
+  font-weight: bolder;
 }
