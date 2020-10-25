@@ -88,12 +88,13 @@ body {
 
 
 #page-container h2{
-  margin-right: 20px;
+  margin-right: 40px;
   margin-left: 20px;
   justify-self: left;
   color: #E57010;
   border-right: solid 2px;
-  justify-content: space-around;}
+  justify-content: space-around;
+  text-align: left;}
 
 #my-work h2 {
   color:#E57010; 
@@ -111,6 +112,8 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+  width: 90%;
+  height: 90%;
   }
 
 .parent img {
@@ -121,6 +124,12 @@ body {
   .div3 { grid-area: 2 / 3 / 3 / 4; }
   .div4 { grid-area: 3 / 1 / 4 / 2; }
   .div5 { grid-area: 3 / 2 / 4 / 3; }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
 /* check using flexbox
 .parent {
   grid-template-columns: repeat(3, 100px);
@@ -132,7 +141,7 @@ body {
   margin-top: 50px;
   margin-bottom: 200px;
   }*/
-}
+
 /*
   .parent img {
     width: 100%;
