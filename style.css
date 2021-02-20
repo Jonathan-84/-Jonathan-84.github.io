@@ -270,10 +270,16 @@ text-decoration: none;
     width: 100%;
     height: 70px;
   }
+  #my-story {
+    flex: 1
+  }
   #bio-image {
-    flex: 0 100%;
+    flex-basis: 100%;
   }
   #my-story p {
-    flex: 1 100%;
+    flex-basis:100%;
+  }
+  .flex-items {
+    display: flex;
   }
 }
